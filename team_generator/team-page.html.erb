@@ -1,0 +1,15 @@
+<div class="cards">
+<% student_groups.each do |student_group| %>
+  <div class="card">
+    <h3><%= student_group.first["team"] %></h3>
+    <ul>
+    <%  student_group.each do |student| %>
+      <li>
+        <img id="<%= student["name"] %>" src="<%= student["img"] %>" alt="">
+        <p><%= student["name"] %></p>
+      </li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>
+</div>

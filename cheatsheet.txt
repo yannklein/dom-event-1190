@@ -1,0 +1,10 @@
+<li>Bookcard <em>Club</em> 👟</li>
+
+<li>
+  <img
+    id="Takaaki Nakagami"
+    src="https://avatars.githubusercontent.com/u/117798839?v=4"
+    alt=""
+  />
+  <p>Takaaki Nakagami</p>
+</li>
