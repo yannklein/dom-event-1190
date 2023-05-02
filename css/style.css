@@ -33,7 +33,7 @@ input[type=submit] {
 }
 
 .selected {
-  border-radius: 0%!important;
+  /* border-radius: 0%!important; */
   border-color: white!important;
   box-shadow: 0 0px 8px black;
 }
